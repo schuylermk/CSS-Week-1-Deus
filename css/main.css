@@ -1,24 +1,40 @@
 *,
 *:before,
-*:after {
+*:after
+{
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
-.logo {
-  position: absolute;
-  padding: 300px 400px 50px 50px;
-  top: 275px;
-
+*,
+*:before,
+*:after
+{
+    margin: 0;
 }
 
-.centered {
-  position: absolute;
-  top: 7%;
-  left: 31%;
-  background-repeat: no-repeat;
-  opacity: .1;
+#sky
+{
+    width: 1430px;
+}
+
+.logo
+{
+    position: fixed;
+    top: 215px;
+
+    padding: 300px 400px 50px 50px;
+}
+
+.centered
+{
+    position: fixed;
+    top: 7%;
+    left: 31%;
+
+    opacity: .1;
+    background-repeat: no-repeat;
 }
 
 @-webkit-keyframes spaceboots {
