@@ -1,38 +1,36 @@
 *,
-*:before,
-*:after
-{
+*::before,
+*::after {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after
-{
-    margin: 0;
-}
-
 * {
   font-family: 'Titillium Web', sans-serif;
-}
-
-h1 {
-    margin: 10px 0 0 20px;
-    padding-bottom: 0;
-}
-
-form {
-  float: left;
-  max-width: 300px;
-  margin: 40px 0 0 40px;
-  padding: 10px 20px;
-  background: #f4f7f8;
-  border-radius: 4px;
+  margin: 0;
 }
 
 h2 {
+    margin: 10px 0 0 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.left {
+  float: left;
+  margin: 40px 0 0 40px;
+}
+
+form {
+  max-width: 375px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 4px;
+  opacity: .6;
+}
+
+h3 {
   margin: 0 0 20px 0;
   text-align: center;
 }
@@ -61,10 +59,11 @@ button {
   font-size: 16px;
   text-shadow: 1px 1px 8px 5px grey;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 15px;
   width: 100%;
   border: 1px solid #9f6060;
   border-width: 1px 1px 3px;
+  box-shadow: 10px 10px 70px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
 }
 
@@ -80,10 +79,35 @@ legend {
 
 label {
   display: block;
-  margin: 0 26px 8px 26px;
+  margin: 0 16px 8px 16px;
   font-weight: 300;
 }
 
-form {
-    max-width: 480px;
-  }
+.right {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  margin: 40px 40px 0 0;
+  border: 2px 0.7 #996666;
+}
+
+.th1, .th2, .th3, .th4, .th5, .th6, .th7, .th8, .th9 {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ffffe6;
+  box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.5);
+  margin: 0 15px 10px 0;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.container {
+  position: relative;
+  background-image: url("../img/bye.jpg");
+  display: inline-block;
+  width: 1300px;
+  margin: 0;
+}

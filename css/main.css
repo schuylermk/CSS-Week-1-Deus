@@ -23,7 +23,6 @@
 {
     position: fixed;
     top: 215px;
-
     padding: 300px 400px 50px 50px;
 }
 
@@ -32,7 +31,6 @@
     position: fixed;
     top: 7%;
     left: 31%;
-
     opacity: .1;
     background-repeat: no-repeat;
 }
