@@ -6,7 +6,7 @@
             box-sizing: border-box;
 }
 
-* {
+body {
   font-family: 'Titillium Web', sans-serif;
   margin: 0;
 }
@@ -101,6 +101,7 @@ label {
 }
 
 .clearboth {
+  float: right;
   clear: both;
 }
 

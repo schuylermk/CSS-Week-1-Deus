@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+@charset "UTF-8";
+
+body {
+  position: relative;
+  margin: 0;
+  background-image: url("../img/deussky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar ul {
+  width: 100%;
+  display: inline;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar li:first-child {
+  float: left;
+  padding: 40px 0 0 80px;
+}
+
+.navbar li {
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  text-shadow: 26px 26px 40px #333, -26px 26px 40px #333, 9px 9px 100px #99e699, -9px 9px 100px #99e699;
+  display: inline;
+  float: right;
+}
+
+.navbar li:nth-child(2) {
+  padding: 62px 67px 0 65px;
+}
+
+.navbar li:nth-child(3) {
+  padding: 62px 71px 0 65px;
+}
+
+.navbar li:nth-child(4) {
+  padding: 62px 53px 0 65px;
+}
+
+.pills ul {
+  width: 100%;
+  display: inline;
+  list-style: none;
+}
+
+.pills li:first-child {
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.pills li {
+  float: right;
+  margin: 30px 40px 0 40px;
+}
+
+
+a:visited {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+    position: fixed;
+    bottom: 0px;
+    padding: 300px 400px 120px 150px;
+}
+
+.centered {
+    position: absolute;
+    top: 200px;
+    margin-left: 650px;
+    margin-right: 650px;
+    opacity: .1;
+    background-repeat: no-repeat;
+}
+
+.text {
+  display: inline-block;
+  position: absolute;
+  top: 550px;
+  margin-left: 750px;
+  margin-right: 600px;
+  font-family: 'Arvo', serif;
+  font-weight: 300;
+  opacity: .8;
+}
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#shake:hover,
+#shake:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
