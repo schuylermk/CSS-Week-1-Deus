@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}
+
+h2 {
+    margin: 10px 0 0 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.info-link {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  margin-bottom: 200px;
+  padding: 0 40px;
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  background: #f4f7f8;
+  border-radius: 4px;
+  opacity: .3;
+}
+
+a:visited {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+  margin: 40px 0 0 40px;
+}
+
+form {
+  max-width: 375px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 4px;
+  opacity: .6;
+}
+
+h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="location"] {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 12px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #000;
+  background-color: #f90606;
+  font-size: 16px;
+  text-shadow: 1px 1px 8px 5px grey;
+  text-align: center;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid #9f6060;
+  border-width: 1px 1px 3px;
+  box-shadow: 10px 10px 70px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 5px;
+  border: none;
+}
+
+legend {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin: 0 16px 8px 16px;
+  font-weight: 300;
+}
+.features {
+  float: left;
+  width: 40%;
+  margin: 0 0 0 100px;
+  max-width: 375px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border: 2px solid #ffffe6;
+  border-radius: 4px;
+  box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.thumbnails {
+  float: right;
+  width: 755px;
+  margin: 0;
+}
+
+.thumbnails img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ffffe6;
+  border-radius: 4px;
+  box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.5);
+  margin: 0 25px 25px 0;
+}
+
+.clearboth {
+  float: right;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  height: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10%;
+}
+.wrapper {
+  max-width: 1920px;
+  margin: 0;
+  background-image: url("../img/bye.jpg");
+  height: 1280px;
+  background-repeat: no-repeat;
+}
