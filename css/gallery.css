@@ -17,6 +17,7 @@ h2 {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .info-link {
   position: absolute;
   top: 75%;
@@ -39,6 +40,8 @@ a {
   text-decoration: none;
 }
 
+=======
+>>>>>>> origin/gh-pages
 .left {
   float: left;
   margin: 40px 0 0 40px;
@@ -104,6 +107,7 @@ label {
   margin: 0 16px 8px 16px;
   font-weight: 300;
 }
+<<<<<<< HEAD
 .features {
   float: left;
   width: 40%;
@@ -130,6 +134,24 @@ label {
   border-radius: 4px;
   box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.5);
   margin: 0 25px 25px 0;
+=======
+
+.right {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  margin: 40px 40px 0 0;
+  border: 2px 0.7 #996666;
+}
+
+.th1, .th2, .th3, .th4, .th5, .th6, .th7, .th8, .th9 {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ffffe6;
+  box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.5);
+  margin: 0 15px 10px 0;
+>>>>>>> origin/gh-pages
 }
 
 .clearboth {
@@ -139,6 +161,7 @@ label {
 
 .container {
   position: relative;
+<<<<<<< HEAD
   height: 1280px;
   max-width: 100%;
   margin: 0 auto;
@@ -150,4 +173,10 @@ label {
   background-image: url("../img/bye.jpg");
   height: 1280px;
   background-repeat: no-repeat;
+=======
+  background-image: url("../img/bye.jpg");
+  display: inline-block;
+  width: 1300px;
+  margin: 0;
+>>>>>>> origin/gh-pages
 }
