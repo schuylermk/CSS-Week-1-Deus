@@ -1,6 +1,6 @@
 # CSS-Week-1-Deus
 
-* Pared down "rebuild" of a Deus Ex Machina Motorcycles website for their W-`ühini bike utilizing old-school vanilla CSS.
+* Pared down "rebuild" of a Deus Ex Machina Motorcycles website for their W-`ühini bike utilizing old-school vanilla CSS. (Non-responsive, best viewed on browser windows larger than 1200px.)
 
 
 ## Running / Development
